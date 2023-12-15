@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+   
+}
+html{
+    background-color: rgb(248, 235, 235);
+}
+
+.logo{
+    font-size: 30px;
+    color: coral;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 43px;
+    color: coral;
+    
+}
+.header-section{
+    background-image: url('assets/learning.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header .navbar{
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar nav ul li {
+    
+   display: inline;
+   padding: 15px;
+}
+
+.navbar nav ul li a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.page-details{
+    /* padding-top: 280px;
+    padding-left: 20%; */
+    position: absolute;
+    top: 48%;
+    left: 22%;
+    background: rgba(5, 4, 4, 0.4);
+    
+    /* margin: 20px; */
+}
+.page-details p{
+ color: white;
+}
+
+.container{
+    height: 100vh;
+   /* width: 40vw; */
+   
+}
+
+/* about */
+.sum-container{
+
+}
+.sum-content{
+    padding-top: 100px;
+}
+
+/* .sum-content p{
+    margin: 40px; */
+    /* padding: 5px; */
+/* } */
+.my-det{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.my-det .first-det{
+    width: 50vw;
+}
+.my-det .first-det p{
+    font-size: 22px; 
+}
+.sum-detail{
+    margin: 80px;
+}
+.sum-detail p{
+   font-size: 17px;
+}
+.sumcontent{
+    padding: 7px;
+}
+.round-img{
+    border-radius: 30%;
+}
+/* end of summary */
+
+
+/* contact */
+.contact-information{
+    margin: 10px;
+    margin-left: 23%;
+    display: flex;
+    justify-content: space-around;
+    width: 54vw;
+    height: 33vh;
+    background-color: rgb(26, 26, 27);
+}
+.contact-information p a{
+    text-decoration: none;
+}
+.social-icon{
+    width: 45px;
+}
+.message-box{
+    margin-left: 23%;
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+.con-info{
+    padding-top: 100px;
+}
+.thank-box{
+    background-color: black;
+    width: 23vw;
+}
+span{
+    color: white;
+    padding: 36px;
+    font-size: 32px;
+
+}
+/* end of contact */
+
+
+
+
+
+
+
+
+
+/* media screen responsivenes */
+@media (max-width: 540px) {
+    .logo{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 21px;
+        }
+    
+    .navbar nav ul li {
+        padding: 5px;
+     }
+.navbar nav ul li a{
+    
+    font-size: 13px;
+}
+.page-details{
+    /* padding-top: 280px;
+    padding-left: 20%; */
+    position: absolute;
+    top: 48%;
+    left: 15%;
+    /* background: rgba(5, 4, 4, 0.4); */
+    
+    /* margin: 20px; */
+}
+/* .page-details h1{
+    font-size: 14px;
+    } */
+.page-details p{
+font-size: 11px;
+}
+
+
+
+
+
+.my-det{
+    /* display: flex; */
+    flex-direction: column;
+}
+
+
+
+.contact-information{
+    flex-direction: column;
+}
+.social-icon{
+    width: 25px;
+}
+.message-box{
+  flex-direction: column;
+}
+}
